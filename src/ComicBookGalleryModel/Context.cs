@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ComicBookGalleryModel
 {
-    class Context : DbContext
+    public class Context : DbContext
     {
         public DbSet<ComicBook> ComicBooks { get; set; }
     }
