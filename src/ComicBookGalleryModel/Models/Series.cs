@@ -7,13 +7,13 @@ namespace ComicBookGalleryModel.Models
         //nav property must be initialized via Series constructor
         public Series()
         {
-            ComicBooks = new List<ComicBook>();
+            ComicBooks = new List<ComicBookArtist>();
         }
 
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         //defining a navigation property on principal is optional
-        public ICollection<ComicBook> ComicBooks { get; set; }
+        public ICollection<ComicBookArtist> ComicBooks { get; set; }
     }
 }

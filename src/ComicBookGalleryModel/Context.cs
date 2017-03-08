@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComicBookGalleryModel_v2
+namespace ComicBookGalleryModel
 {
     public class Context : DbContext
     {
